@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .welcome {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  header{
+    margin-top: 1em;
+    font-family: 'Inconsolata', monospace;
+  }
+  .container{
+      width: 78%;
+      margin: 10em auto;
+      display: flex;
+      align-items: center;
+      padding: 2em;
+  } 
+  .warning-text{
+    width: fit-content;
+  }
+  .head-warning{
+    font-size: 2rem;
+    width: 294px;
+    font-weight: 300;
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 1em;
+  }
+  .warning-description{
+    font-family: 'Space Mono', monospace;
+    padding-bottom: 1em;
+  }
+  .scarecrow img{
+      max-width: 500px;
+      max-height: 220px;
+  }
+  .btn-homepage{
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border: 0px;
+  }
+  .ftm{
+    background-color: lavender;
+  }
